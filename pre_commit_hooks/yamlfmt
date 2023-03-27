@@ -178,6 +178,7 @@ class Formatter:
 
 
 if __name__ == "__main__":
+    print('OI'*1000)
     ARGS = Cli().parser.parse_args()
     FORMATTER = Formatter(
         mapping=ARGS.mapping,
